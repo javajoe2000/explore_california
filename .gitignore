@@ -15,3 +15,50 @@ assets/photoshop/
 #only ignore videos  that do not look like tour_*.mp4
 assets/videos/
 !assets/videos/tour_*.mp4
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# eclipse files to ignore
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# TeXlipse plugin
+.texlipse
