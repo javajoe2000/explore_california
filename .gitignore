@@ -1,0 +1,17 @@
+# ignore all text files
+*.txt
+
+# ignore all compressed archive files
+*.zip
+*.gz
+
+# ignore log files and log.0 log.1 etc. 
+/log/*.log
+/log/*.log.[0..9]
+
+#ignore all files in photoshop (put the / at the end)
+assets/photoshop/
+
+#only ignore videos  that do not look like tour_*.mp4
+assets/videos/
+!assets/videos/tour_*.mp4
